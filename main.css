@@ -1,9 +1,39 @@
 .choice {
-  border: 1px solid green;
   height: 200px;
   width: 200px;
+  border: 2px solid black;
 }
 
 #choices {
   display: flex;
+}
+
+#selections {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#rock {
+  background-image: url('rock.png');
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block;
+}
+#paper {
+  background-image: url('paper.png');
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block;
+}
+#scissors {
+  background-image: url('scissors.png');
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block;
 }
